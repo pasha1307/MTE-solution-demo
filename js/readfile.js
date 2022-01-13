@@ -7,7 +7,7 @@ export const onFileRead = () => {
     reader.onload = () => {
         txtInput.value = reader.result;
     };
-    reader.onerror = function() {
+    reader.onerror = () => {
         console.log(reader.error);
     };
     return reader;
