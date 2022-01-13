@@ -1,0 +1,35 @@
+body {
+    max-width: 70vw;
+}
+footer {
+    text-align: center;
+}
+.app-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.app-main section {
+    width: 43%;
+    min-width: 250px;
+    min-height: 400px;
+}
+
+#outputDiv {
+    height: 320px;
+    width: 100%;
+    background-color: rgba(0,0,0,.1);
+    overflow-y: auto;
+}
+.app-section__btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.app-section__btn-export {
+    margin-bottom: 1rem;
+}
+.app-input__upload {
+    /*max-width: 93%;*/
+}
