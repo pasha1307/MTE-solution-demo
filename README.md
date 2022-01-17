@@ -1,4 +1,4 @@
-# MTE-solution-demo
+# MTE-solution-demo (!!!. Please, check https://github.com/pasha1307/MTE-demo-mod with modified solution)
 **1. UI:**
 - text area with the input text; text area with the output text; editable DIVs with the HTML output text and mapped replacements
 - buttons: upload file, export file, insert text, cancel
